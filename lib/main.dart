@@ -36,6 +36,13 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
+        floatingActionButton: FloatingActionButton(
+          elevation: 20,
+          onPressed: () {
+            print("ok");
+          },
+          child: Icon(Icons.add_circle),
+        ),
       ),
     );
   }
